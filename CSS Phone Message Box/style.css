@@ -1,0 +1,146 @@
+body {
+  background: #ffe7bc;
+}
+
+.phone {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+}
+
+.phone-top {
+  background: #93a3af;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: inset -15px 0 #7a8c98;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.phone-camera {
+  background: #7a8c98;
+  border-radius: 20px;
+  height: 15px;
+  width: 50px;
+}
+
+.phone-body {
+  background: #efefef;
+  box-shadow: inset -15px 0 #d3d8df;
+  display: flex;
+  align-items: center;
+  height: 270px;
+  position: relative;
+}
+
+.phone-bottom {
+  background: #93a3af;
+  box-shadow: inset -15px 0 #7a8c98;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 50px;
+}
+
+.phone-box-green {
+  background: #4fceb7;
+  border-radius: 10px;
+  position: absolute;
+  left: -100px;
+  margin-top: 40px;
+  height: 120px;
+  width: 220px;
+}
+
+.phone-box-green:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  right: 20%;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #4fceb7;
+}
+
+.phone-box-green .phone-box-inner {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-20%, -50%);
+}
+
+.phone-box-green .phone-box-row {
+  background: #3db5a0;
+  height: 12px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.phone-box-green .phone-box-row:first-child {
+  width: 100px;
+}
+
+.phone-box-green .phone-box-row:nth-child(2) {
+  width: 80px;
+}
+
+.phone-box-green .phone-box-row:nth-child(3) {
+  width: 90px;
+}
+
+.phone-box-green .phone-box-row:last-child {
+  width: 70px;
+}
+
+.phone-box-pink {  
+  background: #eb5776;
+  border-radius: 10px;	
+  position: absolute;
+  right: -100px;
+  margin-top: -50px;
+  height: 120px;
+  width: 220px;
+}
+
+.phone-box-pink:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  right: 20%;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #eb5776;
+}
+
+.phone-box-pink .phone-box-inner {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-20%, -50%);
+}
+
+.phone-box-pink .phone-box-row {
+  background: #ce3f63;
+  height: 12px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.phone-box-pink .phone-box-row:first-child {
+  width: 100px;
+}
+
+.phone-box-pink .phone-box-row:nth-child(2) {
+  width: 70px;
+}
+
+.phone-box-pink .phone-box-row:nth-child(3) {
+  width: 80px
+}
+
+.phone-box-pink .phone-box-row:last-child {
+  width: 60px;
+}

@@ -1,0 +1,32 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background: #b88cd2;
+}
+
+.login {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.login-form {
+  background: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+  padding: 80px;
+}
+
+.login-input {
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  padding: 30px;
+}
+
+.login-btn {
+  background: #b88cd2;
+  border: none;
+  color: #fff;
+  height: 50px;
+  width: 100%;
+  text-transform: uppercase;
+}

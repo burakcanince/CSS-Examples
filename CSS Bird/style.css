@@ -1,0 +1,169 @@
+body {
+  background: #ffeec8;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.bird {
+  background: #fdbd2c;
+  border-radius: 100px;
+  height: 350px;
+  width: 200px;
+  position: relative;
+}
+
+.bird:after {
+  content: "";
+  background: #fdbd2c;
+  border-bottom-right-radius: 30px;
+  position: absolute;
+  right: 10px;
+  height: 20px;
+  width: 80px;
+}
+
+.hair {
+  background: #fdbd2c;
+}
+
+.right-eye {
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 90px;
+  left: 50px;
+  height: 30px;
+  width: 30px;
+}
+
+.left-eye {
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 90px;
+  right: 50px;
+  height: 30px;
+  width: 30px;
+}
+
+.inner-eye {
+  animation: drop 3s linear infinite;
+  background: #FFF;
+  border-radius: 50%;
+  position: absolute;
+  top: 6px;
+  right: 0;
+  height: 10px;
+  width: 10px;
+}
+
+.mouth {
+  border-style: solid;
+  border-width: 30px 30px 0 30px;
+  border-color: #e7831e transparent transparent transparent;
+  position: absolute;
+  top: 140px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 0;
+  width: 0;
+}
+
+.right-hand {
+  animation: rotate-right 3s linear infinite;
+  background: #f2b02a;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  position: absolute;
+  top: 140px;
+  left: -30px;
+  transform: rotate(10deg);
+  height: 80px;
+  width: 50px;
+}
+
+.left-hand {
+  animation: rotate-left 3s linear infinite;
+  background: #f2b02a;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  position: absolute;
+  top: 140px;
+  right: -30px;
+  transform: rotate(-10deg);
+  height: 80px;
+  width: 50px;
+}
+
+.belly {
+  background: #f4c778;
+  border-radius: 70px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 170px;
+  width: 120px;
+}
+
+.right-foot {
+  color: #e7831e;
+  font-size: 40px;
+  position: absolute;
+  bottom: -30px;
+  right: 20%;
+}
+
+.left-foot {
+  color: #e7831e;
+  font-size: 40px;
+  position: absolute;
+  bottom: -30px;
+  left: 20%;
+}
+
+@keyframes rotate-right {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rotate-left {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes drop {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(-4px, 4px);
+  }
+  50% {
+    transform: translate(-7px, 7px);
+  }
+  75% {
+    transform: translate(-4px, 4px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}

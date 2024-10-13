@@ -1,0 +1,279 @@
+body {
+  background: #f1f1f1;
+}
+
+.icon-box {
+  background: #32bea6;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  margin: 30px;
+  height: 150px;
+  width: 150px;
+}
+
+.icon-1 .circle {
+  background: #fff;
+  border-radius: 20px;
+  height: 100px;
+  width: 100px;
+}
+
+.icon-1 .top {
+  background: #059bbf;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 25px;
+  line-height: 25px;
+}
+
+.icon-1 .bottom {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 75px;
+  padding: 10px;
+}
+
+.icon-1 .bottom-left {
+  float: left;
+  width: 40%;
+}
+
+.icon-1 .bottom-left .fa {
+  background: #6fdaf1;
+  border-radius: 50%;
+  color: #21b2d1;
+  padding: 5px 5px 0px 5px;
+}
+
+.icon-1 .bottom-right {
+  float: left;
+  width: 60%;
+}
+
+.icon-1 .box {
+  background: #e2e4e5;
+  margin-bottom: 5px;
+}
+
+.icon-1 .box-1 {
+  height: 4px;
+  width: 10px; 
+}
+
+.icon-1 .box-2 {
+  height: 4px;
+  width: 15px;
+}
+
+.icon-1 .box-3 {
+  height: 4px;
+  width: 20px;
+}
+
+.icon-1 .box-4 {
+  height: 15px;
+}
+
+.icon-1 .box-5 {
+  height: 12px;
+}
+
+.icon-1 .box-6 {
+  height: 9px;
+}
+
+.icon-2 .camera {
+  background: #fff;
+  border-radius: 10px;
+  height: 60px;
+  width: 80px;
+  position: relative;
+}
+
+.icon-2 .camera:after {
+  content: "";
+  border-style: solid;
+  border-width: 25px 30px 25px 0;
+  border-color: transparent #fff transparent transparent;
+  border-radius: 5px;
+  position: absolute;
+  right: -15px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.icon-3 .camera-icon {
+  background: #626262;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 90px;
+  position: relative;
+}
+
+.icon-3 .camera-icon:after {
+  content: "";
+  background: #626262;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  height: 10px;
+  width: 40px;
+  position: absolute;
+  top: -5px;
+}
+
+.icon-3 .camera-circle {
+  border: 8px solid #fff;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+.icon-3 .camera-btn {
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  height: 10px;
+  width: 10px;
+}
+
+.icon-4 .camera {
+  background: #fff;
+  border-radius: 10px;
+  height: 40px;
+  width: 60px;
+  margin-top: 15px;
+  position: relative;
+}
+
+.icon-4 .camera:after {
+  content: "";
+  border-style: solid;
+  border-width: 15px 25px 15px 0;
+  border-color: transparent #fff transparent transparent;
+  position: absolute;
+  right: -15px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.icon-4 .circle-small {
+  background: #fff;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: -25px;
+  left: 0;
+}
+
+.icon-4 .circle-big {
+  background: #fff;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  top: -35px;
+  right: 0;
+}
+
+.icon-5 .camera {
+  background: #626262;
+  border-radius: 10px;
+  height: 70px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.icon-5 .circle {
+  background: #fff;
+  border: 6px solid #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.icon-5 .circle:after {
+  content: "";
+  border-top: 3px solid #fff;
+  position: absolute;
+  top: -7px;
+  width: 60px;
+}
+
+.icon-6 {
+  position: relative;
+}
+
+.icon-6 .camera {
+  background: #363e4b;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 70px;
+  position: relative;
+}
+
+.icon-6 .camera:after {
+  content: "";
+  border-style: solid;
+  border-width: 20px 25px 20px 0;
+  border-color: transparent #efce4a transparent transparent;
+  border-radius: 5px;
+  position: absolute;
+  right: -25px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.icon-6 .circle {
+  background: #efce4a;
+  border-radius: 50%;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+.icon-6 .circle:after {
+  content: "";
+  border-top: 3px solid #fff;
+  margin-left: 10px;
+  position: absolute;
+  bottom: 0;
+  transform: rotate(45deg);
+  width: 20px;
+}
+
+.icon-6 .camera-left-bottom {
+  background: #363e4b;
+  height: 4px;
+  width: 30px;
+  position: absolute;
+  bottom: -13px;
+  left: 0px;
+  transform: rotate(-60deg);
+}
+
+.icon-6 .camera-right-bottom {
+  background: #363e4b;
+  height: 4px;
+  width: 30px;
+  position: absolute;
+  bottom: -13px;
+  right: 0px;
+  transform: rotate(60deg);
+}

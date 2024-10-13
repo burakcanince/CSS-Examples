@@ -1,0 +1,11 @@
+.gradient-border {
+	border: 5px solid black;
+	border-image: linear-gradient(#e675cc,#e85b5b,#eca34a);
+	border-image-slice: 1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 300px;
+	width: 500px;
+}

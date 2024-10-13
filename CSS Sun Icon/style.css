@@ -1,0 +1,59 @@
+body {
+    background: #cde5f3;  
+}
+
+.sun {
+  background: #fcd462;
+  box-shadow: inset -15px 0 #f6c458;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+ 
+.sun-top {
+  background: #f6c458;
+  border-radius: 20px;
+  height: 50px;
+  width: 25px;
+  position: absolute;
+  top: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.sun-bottom {
+  background: #f6c458;
+  border-radius: 20px;
+  height: 50px;
+  width: 25px;
+  position: absolute;
+  bottom: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.sun-right {
+  background: #f6c458;
+  border-radius: 20px;
+  height: 50px;
+  width: 25px;
+  position: absolute;
+  right: -70px;
+  top: 50%;
+  transform: translateY(-50%) rotate(90deg);
+}
+
+.sun-left {
+  background: #f6c458;
+  border-radius: 20px;
+  height: 50px;
+  width: 25px;
+  position: absolute;
+  left: -70px;
+  top: 50%;
+  transform: translateY(-50%) rotate(90deg);
+}

@@ -1,0 +1,21 @@
+.animate-background {
+	animation: animate 300s linear infinite;
+	background: url("https://unsplash.com/a/img/marketing/photo-grid.jpg");
+	background-repeat: repeat;
+	background-position: 0 0;
+	background-size: auto 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+	
+@keyframes animate {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: -30000px 0;
+	}
+}

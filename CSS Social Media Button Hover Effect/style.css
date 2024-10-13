@@ -1,0 +1,61 @@
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #9ca4ff;
+}
+
+.icon-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon {
+  background: #7c81bf;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 26px;
+  line-height: 90px;
+  margin: 10px;
+  height: 90px;
+  width: 90px;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+}
+
+.icon span {
+  background: #fff;
+  border-radius: 3px;
+  color: #656565;
+  font-size: 12px;
+  font-weight: 600;
+  height: 30px;
+  line-height: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.5s cubic-bezier(0.94, 0.06, 0.05, 0.95);
+  visibility: hidden;
+  opacity: 0;
+  z-index: -1;
+}
+
+.icon span:before {
+  content: "";
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+  position: absolute;
+  bottom: -6px;
+  left: 40px;
+  height: 0;
+  width: 0;
+}
+
+.icon:hover span {
+  bottom: 100px;
+  visibility: visible;
+  opacity: 1;
+}

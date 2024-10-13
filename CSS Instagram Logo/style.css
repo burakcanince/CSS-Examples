@@ -1,0 +1,109 @@
+body {
+  background: #ececec;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.instagram {
+  background: linear-gradient(to top, #e5e0dc 60%, #a26e61 40%);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  height: 200px;
+  width: 200px;
+  position: relative;
+}
+
+.instagram-circle {
+  background: #162838;
+  border-radius: 50%;
+  border: 12px solid #dcd7d3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  z-index: 1;
+}
+
+.instagram-circle-second {
+  background: #2d4356;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 70px;
+}
+
+.instagram-circle-third {
+  background: #162838;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+}
+
+.instagram-camera {
+  background: #2d4356;
+  border: 6px solid #162838;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.instagram-camera-inner {
+  background: #476379;
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.instagram-line-red {
+  background: #e87265;
+  height: 80px;
+  width: 8px;
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+
+.instagram-line-blue {
+  position: absolute;
+  top: 0;
+  left: 38px;
+  background: #ffe270;
+  height: 80px;
+  width: 8px;
+}
+
+.instagram-line-green {
+  background: #64c1fd;
+  height: 80px;
+  width: 8px;
+  position: absolute;
+  top: 0;
+  left: 46px;
+}
+
+.instagram-line-yellow {
+  background: #6effaa;
+  height: 80px;
+  width: 8px;
+  position: absolute;
+  top: 0;
+  left: 54px;
+}

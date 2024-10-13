@@ -1,0 +1,58 @@
+body {
+  background: #f1f1f1;
+}
+
+.icon {
+  background: #EBBA16;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  margin: 2%;
+  height: 100px;
+  width: 100px;
+}
+
+.icon-1 .right-arrow {
+  border-style: solid;
+  border-color: #FFF;
+  border-width: 0 10px 10px 0;
+  margin-left: -10px;
+  padding: 15px;
+  transform: rotate(-45deg);
+}
+
+.icon-2 .left-arrow {
+  border-style: solid;
+  border-color: #FFF;
+  border-width: 0 10px 10px 0;
+  margin-right: -10px;
+  padding: 15px;
+  transform: rotate(135deg);
+}
+
+.icon-3 .top-arrow {
+  border-style: solid;
+  border-color: #FFF;
+  border-width: 0 10px 10px 0;
+  margin-top: 10px;
+  padding: 15px;
+  transform: rotate(-135deg);
+}
+
+.icon-4 .bottom-arrow {
+  border-style: solid;
+  border-color: #FFF;
+  border-width: 0 10px 10px 0;
+  margin-top: -10px;
+  padding: 15px;
+  transform: rotate(45deg);
+}
+
+.icon-5 .triangle {
+  border-style: solid;
+  border-width: 30px 0 30px 50px;
+  border-color: transparent transparent transparent #FFF;
+  margin-right: -10px;
+}

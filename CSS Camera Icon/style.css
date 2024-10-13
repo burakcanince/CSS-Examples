@@ -1,0 +1,55 @@
+body {
+  background: #a3c0ef;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.camera {
+  background: #fafafa;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  position: relative;
+}
+
+.camera-btn {
+  background: #4f557d;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: 7px;
+  width: 7px;
+}
+
+.camera-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.camera-circle-first {
+  background: #cad1e5;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+}
+
+.camera-circle-second {
+  background: #7386bf;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+
+.camera-circle-third {
+  background: #4c5ba3;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}

@@ -1,0 +1,74 @@
+body {
+  background: #ffc9d1;
+  font-family: "Russo One", sans-serif;
+}
+
+.calendar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+}
+
+.calendar-header {
+  background: #eb5776;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: inset -10px 0 #ce3f63;
+  color: #fff;
+  font-size: 30px;
+  height: 50px;
+  letter-spacing: 2px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.calendar-body {
+  background: #ebeef2;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: inset -10px 0 #d5dadc;
+  display: flex;
+  align-items: center;
+  height: 150px;
+}
+
+.calendar-today {
+  background: #eb5776;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  margin-left: 10px;
+  height: 70px;
+  width: 70px;
+}
+
+.calendar-days {
+  text-align: center;
+  width: 120px;
+}
+
+.calendar-days ul {
+  margin: 0;
+  padding: 0;
+}
+
+.calendar-days li {
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0 2px;
+  height: 6px;
+  width: 11px;
+}
+
+.calendar-days-blue li {
+  background: #5e9eeb;
+}
+
+.calendar-days-pink li {
+  background: #eb5776;
+}

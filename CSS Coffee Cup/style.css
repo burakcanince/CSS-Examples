@@ -1,0 +1,77 @@
+body {
+  background: #d1eeff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.coffee-cup {
+  background: #FFF;
+  height: 300px;
+  width: 220px;
+  position: relative;
+}
+
+.coffee-cup:before {
+  content: "";
+  background: #636b75;
+  border-radius: 20px;
+  height: 30px;
+  width: 250px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.coffee-cup:after {
+  content: "";
+  background: #434953;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px; 
+  height: 15px;
+  width: 180px;
+  position: absolute;
+  top: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.coffee-cup__left {
+  border-style: solid;
+  border-width: 300px 0 0 40px;
+  border-color: transparent transparent transparent #d1eeff;
+  position: absolute;
+  left: 0;
+  z-index: 999;
+}
+
+.coffee-cup__right {
+  border-style: solid;
+  border-width: 0 0 300px 40px;
+  border-color: transparent transparent #d1eeff transparent;
+  position: absolute;
+  right: 0;
+  z-index: 999;
+}
+
+.coffee-cup__center {
+  background: #be8a59;
+  height: 170px;
+  width: 100%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.coffee-cup__logo {
+  background: #FFF;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

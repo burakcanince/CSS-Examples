@@ -1,0 +1,76 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  width: 100%;
+}
+
+.btn {
+  display: inline-block; 
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  margin: 10px;
+  padding: 20px 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  color:  #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-1 {
+  border: 2px solid #bf55ec;
+  color: #bf55ec;
+  box-shadow: rgba(191, 85, 236, 0.4) 0 0 0 0 inset;
+}
+
+.btn-1:hover {
+  box-shadow: rgba(191, 85, 236, 0.7) 0 0 0 30px inset;
+}
+
+.btn-2 {
+  border: 2px solid #f9690e;
+  color: #f9690e;
+  box-shadow: rgba(249, 105, 14, 0.4) 0 0 0 1px inset;
+}
+
+.btn-2:hover {
+  box-shadow: rgba(249, 105, 14, 0.7) 0 60px 0 1px inset;
+}
+
+.btn-3 {
+  border: 2px solid #89c4f4;
+  color: #89c4f4;
+  box-shadow: rgba(137, 196, 244, 0.4) 0 0 0 2px inset;
+}
+
+.btn-3:hover {
+  color: #fff;
+  box-shadow: rgba(137, 196, 244, 0.7) 170px 0 0 2px inset;
+}
+
+.btn-4 {
+  border: 2px solid #ff1200;
+  color: #ff1200;
+  box-shadow: rgba(255, 0, 0, 1) 0 0 0 0 inset;
+}
+
+.btn-4:hover {
+  box-shadow: rgba(255, 0, 0, 1) -170px 0 0 0 inset;
+}
+
+.btn-5 {
+  border: 2px solid #46a344;
+  color: #46a344;
+  box-shadow: rgba(44, 165, 81, 1) 0 0 0 0 inset;
+}
+
+.btn-5:hover {
+  box-shadow: rgba(44, 165, 81, 1) 0 -60px 0 0 inset;
+}
